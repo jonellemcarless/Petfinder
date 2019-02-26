@@ -71,3 +71,7 @@ p {
 footer.page-footer {
   margin: 0;
 } 
+
+.row {
+  align-content: center;
+}
