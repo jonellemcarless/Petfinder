@@ -11,7 +11,7 @@ function bindButtons() {
  document.getElementById('submit').addEventListener('click', function (event) {
   event.preventDefault();
   // this line gets the information from the form entry
-  var type = document.getElementById("type").value("");
+  var type = document.getElementById("type").value;
   console.log(type);
   var age = document.getElementById('age').value;
   var size = document.getElementById('size').value;
